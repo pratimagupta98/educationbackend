@@ -12,13 +12,13 @@ app.use(cors());
 
 //require
  const user = require("./routes/user");
-//const staff = require("./routes/staff");
-// const kycform = require("./routes/kycform");
-// const course = require("./routes/course");
-// const category = require("./routes/category");
-// const video = require("./routes/video");
-// const notification = require("./routes/notification");
-// //const comment = require("./routes/comment");
+const staff = require("./routes/staff");
+ const kycform = require("./routes/kycform");
+ const course = require("./routes/course");
+ const category = require("./routes/category");
+ const video = require("./routes/video");
+ const notification = require("./routes/notification");
+//const comment = require("./routes/comment");
 // const comment1 = require("./routes/comment1");
 // const pdffile = require("./routes/pdffile");
 
@@ -29,12 +29,12 @@ app.use(cors());
 //use
 //app.use("/", indexRouter);
  app.use("/api", user);
-//app.use("/api", staff);
-// app.use("/api", kycform);
-// app.use("/api", course);
-// app.use("/api", category);
-// app.use("/api", video);
-// app.use("/api", notification);
+app.use("/api", staff);
+ app.use("/api", kycform);
+ app.use("/api", course);
+ app.use("/api", category);
+ app.use("/api", video);
+ app.use("/api", notification);
 // app.use("/api", pdffile);
 // //app.use("/api", comment);
 // app.use("/api", comment1);

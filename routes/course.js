@@ -36,7 +36,7 @@ const {
   countcourse,
   viewcoursebyteacherid,
   countcoursebyteacherid,
-} = require("../controllers/course");
+} = require("../controller/course");
 
 //Paths
 router.post(

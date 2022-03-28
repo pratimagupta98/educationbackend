@@ -3,7 +3,7 @@ const router = express.Router();
  
 const {addCat,editCat,viewoneCat,allCat,deleteCat
    
-} = require("../controllers/category");
+} = require("../controller/category");
 
 router.post("/admin/addCat", addCat);
 router.post("/admin/editCat/:id", editCat);

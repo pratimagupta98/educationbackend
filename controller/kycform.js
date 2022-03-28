@@ -1,6 +1,6 @@
 const Kycform = require("../models/kycform");
-const resp = require("../helpers/apiResponse");
-const { uploadFile } = require("../helpers/awsuploader");
+// const resp = require("../helpers/apiResponse");
+//const { uploadFile } = require("../helpers/awsuploader");
 const fs = require("fs");
 
 

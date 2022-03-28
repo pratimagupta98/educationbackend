@@ -15,7 +15,7 @@ const {
   viewonekycform,
   allkycform,
   deletekycform,
-} = require("../controllers/kycform");
+} = require("../controller/kycform");
 
 
 

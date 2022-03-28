@@ -1,7 +1,7 @@
 //const { response } = require("../app");
 const Video = require("../models/video");
 const resp = require("../helpers/apiResponse");
-const { uploadFile } = require("../helpers/awsuploader");
+//const { uploadFile } = require("../helpers/awsuploader");
 
 exports.addvideo = async (req, res) => {
   const { videoTitle, video_file, video_image } = req.body;

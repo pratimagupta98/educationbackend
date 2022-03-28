@@ -25,7 +25,7 @@ const {
   editVideo,
   viewonevideo,
   deletevideo,
-} = require("../controllers/video");
+} = require("../controller/video");
 
 //PATHS
 

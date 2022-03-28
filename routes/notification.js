@@ -7,7 +7,7 @@ const { tokenverify } = require("../functions/tokenverify");
 
 const {addNotification,viewonenotification,viewoneNot_bytoken,allNotification,allstaffNotification,all_userNotification,del_notification,clrnotification,noti_bytype,
    
-} = require("../controllers/notification");
+} = require("../controller/notification");
 
 router.post("/admin/addNotification", addNotification);
 router.get("/admin/viewonenotification/:id", viewonenotification);

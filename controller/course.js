@@ -1,6 +1,6 @@
 const Course = require("../models/course");
 const resp = require("../helpers/apiResponse");
-const { uploadFile } = require("../helpers/awsuploader");
+//const { uploadFile } = require("../helpers/awsuploader");
 const fs = require("fs");
 
 exports.addcourse = async (req, res) => {

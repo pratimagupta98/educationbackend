@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { body, validationResult } = require("express-validator");
+ //const { body, validationResult } = require("express-validator");
 const { check } = require("express-validator");
 //const { verifyToken } = require("../functions/stafftoken");
 const { verifyToken } = require("../functions/stafftoken");
@@ -37,7 +37,7 @@ const {
   deletestaff,
   approved_staff,
   countstaff,
-} = require("../controllers/staff");
+} = require("../controller/staff");
 
 //paths
 

@@ -16,7 +16,7 @@ const {
   deleteuser,
   myprofile,
   countuser,
-} = require("../controllers/user");
+} = require("../controller/user");
 
 router.post("/user/signup", signup);
 router.post("/user/login", login);

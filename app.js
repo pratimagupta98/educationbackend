@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 //require
-// const user = require("./routes/user");
+ const user = require("./routes/user");
 //const staff = require("./routes/staff");
 // const kycform = require("./routes/kycform");
 // const course = require("./routes/course");
@@ -28,7 +28,7 @@ app.use(cors());
 
 //use
 //app.use("/", indexRouter);
-// app.use("/api", user);
+ app.use("/api", user);
 //app.use("/api", staff);
 // app.use("/api", kycform);
 // app.use("/api", course);
@@ -63,8 +63,8 @@ mongoose
     console.log(error);
   });
 
-app.listen(process.env.PORT || 8000, () => {
-  console.log("Example app listening on port 8000");
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Example app listening on port 5000");
 });
 
 //    http://localhost:5000/admin

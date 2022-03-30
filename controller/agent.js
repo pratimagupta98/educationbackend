@@ -60,4 +60,3 @@ exports.deleteagent = async (req, res) => {
 };
 
 
-// console
